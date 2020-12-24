@@ -19,7 +19,7 @@ public class MathClass {
 			System.out.println(numbr[a]);
 		}
 	
-	
+		System.out.println("For Loop in Code");
 		for (int y = 16; y <= 20; y++)
 		{
 			if (y == 14) {
@@ -27,5 +27,17 @@ public class MathClass {
 			}
 			System.out.println("Code: " + y);
 		}
+		System.out.println("While Loop in Code");
+		
+		int ff=50;
+		while (ff <= 60) {
+			if (ff == 57) {
+				System.out.println("Coded value: " + ff);
+			}
+			
+			System.out.println(ff);
+			ff++;
+		}
+		System.out.println("Opensource Development");
 	}
 }
